@@ -11,7 +11,7 @@ title                    : "Xingyu Zhong"
 title_separator          : "-"
 name                     : &name "Xinyu Zhong"
 description              : &description "I am a master student studying Business Informatics at University of Mannheim."
-url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://zhong4301.github.io"
+url                      : https://zhong4301.github.io # the base hostname & protocol for your site e.g. "https://zhong4301.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "academicpages/academicpages.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -175,18 +175,18 @@ kramdown:
 
 # Collections
 collections:
-  teaching:
-    output: true
-    permalink: /:collection/:path/
+  # teaching:
+  #   output: true
+  #   permalink: /:collection/:path/
   publications:
     output: true
     permalink: /:collection/:path/
-  portfolio:
-    output: true
-    permalink: /:collection/:path/
-  talks:
-    output: true
-    permalink: /:collection/:path/
+  # portfolio:
+  #   output: true
+  #   permalink: /:collection/:path/
+  # talks:
+  #   output: true
+  #   permalink: /:collection/:path/
 
 
 # Defaults
